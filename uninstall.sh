@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-choco.exe uninstall sublime -y
+choco.exe uninstall sublimetext3 -y
