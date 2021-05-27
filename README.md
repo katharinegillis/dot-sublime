@@ -1,5 +1,5 @@
 # katharinegillis/sublime
-Just a bunch of dotfiles.
+Install Sublime Text 3.
 
 ## Install
 Clone and symlink or install with [ellipsis][ellipsis]:
