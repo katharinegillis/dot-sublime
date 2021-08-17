@@ -1,3 +1,11 @@
 #!/usr/bin/env bash
 
-choco.exe install sublimetext3 -y
+SYSTEM=$3
+
+if [ "$SYSTEM" == "wsl" ]; then
+    choco.exe install sublimetext3 -y
+elif [ "$SYSTEM" == "mac" ]; then
+    brew install --cask sublime-text
+elif [ "$SYSTEM" == "linux" ]; then
+    sudo snap install sublime-text --classic
+fi
